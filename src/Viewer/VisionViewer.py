@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 __author__ = 'José Francisco Velez & Rainer Arencibia'
-import cv2
 import logging
 import numpy as np
 import os
 import sys
 import time
 from PyQt4 import QtCore, QtGui
+
+import cv2
 
 from ViewerWindow_uy import Ui_ViewerWindow
 from WindowAboutus import Ui_Dialog
@@ -17,7 +18,7 @@ from src.Builders.Histogram.HistogramBuilder import HistogramBuilder
 """
 The MIT License (MIT)
 
-Copyright (c) <2016> <Rainer Arencibia>
+Copyright (c) 2016 Rainer Arencibia
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
