@@ -1,0 +1,148 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'C:\Users\noroot\PycharmProjects\TFG\src\Builders\Histogram\Histograms.ui'
+#
+# Created by: PyQt4 UI code generator 4.11.4
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
+
+class Ui_Histograms(object):
+    def setupUi(self, Histograms):
+        Histograms.setObjectName(_fromUtf8("Histograms"))
+        Histograms.resize(539, 300)
+        self.gridLayout = QtGui.QGridLayout(Histograms)
+        self.gridLayout.setObjectName(_fromUtf8("gridLayout"))
+        self.frame_2 = QtGui.QFrame(Histograms)
+        self.frame_2.setFrameShape(QtGui.QFrame.StyledPanel)
+        self.frame_2.setFrameShadow(QtGui.QFrame.Raised)
+        self.frame_2.setObjectName(_fromUtf8("frame_2"))
+        self.gridLayout_2 = QtGui.QGridLayout(self.frame_2)
+        self.gridLayout_2.setObjectName(_fromUtf8("gridLayout_2"))
+        self.graphicsView = QtGui.QGraphicsView(self.frame_2)
+        self.graphicsView.setObjectName(_fromUtf8("graphicsView"))
+        self.gridLayout_2.addWidget(self.graphicsView, 0, 0, 1, 1)
+        self.gridLayout.addWidget(self.frame_2, 0, 0, 1, 1)
+        self.frame = QtGui.QFrame(Histograms)
+        self.frame.setMaximumSize(QtCore.QSize(150, 16777215))
+        self.frame.setFrameShape(QtGui.QFrame.StyledPanel)
+        self.frame.setFrameShadow(QtGui.QFrame.Raised)
+        self.frame.setObjectName(_fromUtf8("frame"))
+        self.verticalLayout = QtGui.QVBoxLayout(self.frame)
+        self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
+        self.redCheckBox = QtGui.QCheckBox(self.frame)
+        palette = QtGui.QPalette()
+        brush = QtGui.QBrush(QtGui.QColor(170, 0, 0))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.WindowText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(170, 0, 0))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.WindowText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(128, 128, 128))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.WindowText, brush)
+        self.redCheckBox.setPalette(palette)
+        self.redCheckBox.setObjectName(_fromUtf8("redCheckBox"))
+        self.verticalLayout.addWidget(self.redCheckBox)
+        self.greenCheckBox = QtGui.QCheckBox(self.frame)
+        palette = QtGui.QPalette()
+        brush = QtGui.QBrush(QtGui.QColor(0, 85, 0))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.WindowText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(0, 85, 0))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.WindowText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(128, 128, 128))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.WindowText, brush)
+        self.greenCheckBox.setPalette(palette)
+        self.greenCheckBox.setObjectName(_fromUtf8("greenCheckBox"))
+        self.verticalLayout.addWidget(self.greenCheckBox)
+        self.blueCheckBox = QtGui.QCheckBox(self.frame)
+        palette = QtGui.QPalette()
+        brush = QtGui.QBrush(QtGui.QColor(0, 0, 127))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.WindowText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(0, 0, 127))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.WindowText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(128, 128, 128))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.WindowText, brush)
+        self.blueCheckBox.setPalette(palette)
+        self.blueCheckBox.setObjectName(_fromUtf8("blueCheckBox"))
+        self.verticalLayout.addWidget(self.blueCheckBox)
+        self.hueCheckBox = QtGui.QCheckBox(self.frame)
+        palette = QtGui.QPalette()
+        brush = QtGui.QBrush(QtGui.QColor(170, 0, 127))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.WindowText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(170, 0, 127))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.WindowText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(128, 128, 128))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.WindowText, brush)
+        self.hueCheckBox.setPalette(palette)
+        self.hueCheckBox.setObjectName(_fromUtf8("hueCheckBox"))
+        self.verticalLayout.addWidget(self.hueCheckBox)
+        self.saturationCheckBox = QtGui.QCheckBox(self.frame)
+        palette = QtGui.QPalette()
+        brush = QtGui.QBrush(QtGui.QColor(255, 85, 0))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.WindowText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(255, 85, 0))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.WindowText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(128, 128, 128))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.WindowText, brush)
+        self.saturationCheckBox.setPalette(palette)
+        self.saturationCheckBox.setObjectName(_fromUtf8("saturationCheckBox"))
+        self.verticalLayout.addWidget(self.saturationCheckBox)
+        self.valueCheckBox = QtGui.QCheckBox(self.frame)
+        self.valueCheckBox.setChecked(True)
+        self.valueCheckBox.setObjectName(_fromUtf8("valueCheckBox"))
+        self.verticalLayout.addWidget(self.valueCheckBox)
+        self.scaleComboBox = QtGui.QComboBox(self.frame)
+        self.scaleComboBox.setObjectName(_fromUtf8("scaleComboBox"))
+        self.scaleComboBox.addItem(_fromUtf8(""))
+        self.scaleComboBox.addItem(_fromUtf8(""))
+        self.scaleComboBox.addItem(_fromUtf8(""))
+        self.scaleComboBox.addItem(_fromUtf8(""))
+        self.scaleComboBox.addItem(_fromUtf8(""))
+        self.verticalLayout.addWidget(self.scaleComboBox)
+        self.gridLayout.addWidget(self.frame, 0, 1, 1, 1)
+
+        self.retranslateUi(Histograms)
+        QtCore.QMetaObject.connectSlotsByName(Histograms)
+
+    def retranslateUi(self, Histograms):
+        Histograms.setWindowTitle(_translate("Histograms", "Histograms", None))
+        self.redCheckBox.setText(_translate("Histograms", "Red", None))
+        self.greenCheckBox.setText(_translate("Histograms", "Green", None))
+        self.blueCheckBox.setText(_translate("Histograms", "Blue", None))
+        self.hueCheckBox.setText(_translate("Histograms", "Hue", None))
+        self.saturationCheckBox.setText(_translate("Histograms", "Saturation", None))
+        self.valueCheckBox.setText(_translate("Histograms", "Value", None))
+        self.scaleComboBox.setItemText(0, _translate("Histograms", "Value", None))
+        self.scaleComboBox.setItemText(1, _translate("Histograms", "[0..255]", None))
+        self.scaleComboBox.setItemText(2, _translate("Histograms", "Hue", None))
+        self.scaleComboBox.setItemText(3, _translate("Histograms", "[0..360]", None))
+        self.scaleComboBox.setItemText(4, _translate("Histograms", "[0..1]", None))
+

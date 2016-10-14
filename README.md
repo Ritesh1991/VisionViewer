@@ -1,4 +1,4 @@
-## ***VisionViewer***: Images & Video frames filter expert. ##
+## ***VisionViewer***: Images & Video frames filter App. ##
 
 
 ### What is this repository for? ###
