@@ -107,4 +107,3 @@ class Ui_Navigator(object):
         self.imageTotallabel.setText(_translate("Navigator", "0", None))
         self.actionNextImage.setText(_translate("Navigator", "nextImage", None))
 
-import VisionViewer_rc

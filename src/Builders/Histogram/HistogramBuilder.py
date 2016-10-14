@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Rainer Arencibia'
 import PyQt4
-import cv2
 import numpy as np
+
+import cv2
 from PyQt4.QtCore import QString
 from PyQt4.QtGui import QColor, QPen, QBrush
+
 from Histograms import Ui_Histograms
 
 

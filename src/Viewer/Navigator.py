@@ -1,6 +1,7 @@
 __author__ = 'jvelez'
 
-from PyQt4 import QtCore, QtGui
+from PyQt4 import QtGui
+
 from Navigator_ui import Ui_Navigator
 
 

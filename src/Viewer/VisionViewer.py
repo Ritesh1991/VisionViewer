@@ -1,13 +1,18 @@
 # -*- coding: utf-8 -*-
 __author__ = 'José Francisco Velez & Rainer Arencibia'
-import sys, os, logging, cv2, time
+import cv2
+import logging
 import numpy as np
-from src.Builders.Histogram.HistogramBuilder import HistogramBuilder
-from src.Builders.GaussianBlur.GaussianBlurBuilder import GaussianBlurBuilder
-from src.Builders.Canny.CannyBuilder import CannyBuilder
+import os
+import sys
+import time
 from PyQt4 import QtCore, QtGui
-from WindowAboutus import Ui_Dialog
+
 from ViewerWindow_uy import Ui_ViewerWindow
+from WindowAboutus import Ui_Dialog
+from src.Builders.Canny.CannyBuilder import CannyBuilder
+from src.Builders.GaussianBlur.GaussianBlurBuilder import GaussianBlurBuilder
+from src.Builders.Histogram.HistogramBuilder import HistogramBuilder
 
 """
 The MIT License (MIT)

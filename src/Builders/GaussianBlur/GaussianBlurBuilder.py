@@ -1,10 +1,14 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Rainer Arencibia'
-from PyQt4 import QtGui, QtCore
-from PyQt4.QtCore import QObject
-from Configurator import Ui_ConfiguratorWidget
-import cv2, logging, time
 import numpy as np
+from PyQt4 import QtGui, QtCore
+
+import cv2
+import logging
+import time
+from PyQt4.QtCore import QObject
+
+from Configurator import Ui_ConfiguratorWidget
 
 
 class WindowBuilder(QtGui.QDialog):

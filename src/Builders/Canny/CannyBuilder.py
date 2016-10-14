@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Rainer Arencibia'
-from PyQt4 import QtGui, QtCore
-#  *************************** from src.Operators.Configurator import Ui_Configurator
-import cv2
 import numpy as np
+from PyQt4 import QtGui
+
+import cv2
 
 
 class WindowConfigurator(QtGui.QDialog):
